@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Color Game</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<header class="headfoot">
+   			<h1>Color Game</h1>
+		</header>
+		
+		<div class="banner">
+			<div id="newgame" class="custombutton1">
+				New Game
+			</div>
+			<div id="easygame" class="custombutton2">
+				Easy
+			</div>
+			<div id="hardgame" class="custombutton2">
+				Hard
+			</div>
+		</div>
+		
+		<div class="section">
+			<h2>Click on a box below to WIN the Color Game to match this color : </h2>
+			<p>RGB(</p><p id="rgbValue"></p><p>)</p>
+		</div>
+		
+		<div class="grid">
+			<div id="one" class="box">
+			</div>
+		
+			<div id="two"class="box">
+			</div>
+		
+			<div id="three"class="box">
+			</div>
+			
+			<div id="four" class="box">
+			</div>
+		
+			<div id="five" class="box">
+			</div>
+		
+			<div id="six" class="box">
+			</div>
+		</div>
+		
+		<footer class="headfoot">Color Game</footer>
+	</div>
+	<script type="text/javascript" src="js/func.js"></script>
+	<script>
+		funcNewGame();
+	</script>
+</body>
+</html>

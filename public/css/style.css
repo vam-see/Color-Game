@@ -1,0 +1,75 @@
+/*
+CSS file for ColorGame
+*/
+.container {
+    width: 600px;
+	margin: 50px auto;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    border-radius: 2px;
+    font-family: Helvetica, sans-serif;
+}
+
+.banner{
+	background-color: lightgrey;
+	margin: 5px auto;
+	width: 600px;
+	height: 45px;
+	border-radius: 2px;
+}
+
+.custombutton1{
+	float: left;
+	padding: 15px;
+	font: 15px Helvetica, sans-serif;
+}
+
+.custombutton2{
+	float: right;
+	padding: 10px;
+	font: 15px Helvetica, sans-serif;
+}
+
+.buttonselect{
+	border-top: 2px solid red;
+}
+
+.section {
+	border-radius: 2px;
+}
+
+.section h2,  .section p{
+	display: inline;
+	vertical-align: top;
+	font: 25px/35px Helvetica, sans-serif;
+}
+
+.grid{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.box {
+    background-color: lightgrey;
+    width: 55px;
+	height: 55px;
+	margin: 25px;
+	padding: 25px;
+	float: left;
+	border-radius: 2px;
+}
+
+.boxhide{
+	display: none;
+}
+
+.boxfade{
+	opacity: 0;
+	transition: opacity 2s;
+}
